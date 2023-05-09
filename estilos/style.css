@@ -1,0 +1,238 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*texto primero de ubicación*/
+#seccion {
+    text-align: center;
+    height: 20px;
+    color: #FFF;
+    font-size: 10px;
+}
+
+h2 {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*estilos para el header*/
+header {
+    height: 120px;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.menu ul {
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 11.8px;
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    background: #45a8ff;
+}
+
+.menu li {
+    flex-grow: 0.1; /*con esto doy espacio entre las letras*/
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    /*text-transform: uppercase;*/
+    font-size: 22px;
+}
+
+.menu li a:hover {
+    color: #141e70;
+}
+
+/*estilos para la imagen del banner*/
+#banner {
+    padding: 0;
+    margin: 0;
+    display:flex;
+    height: 70vh;
+}
+
+/*estilos para el article*/
+article {
+    background: rgb(240, 238, 238);
+    padding-bottom: 50px;
+}
+
+#texto1 h2 {
+   padding-top: 50px;
+}
+
+#texto1 p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#texto1 img {
+    display: flex;
+    margin-left: 500px;
+    height: 280px;
+}
+
+#texto1 button {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    margin-left: 640px;
+}
+
+#texto1 button:hover {
+    color: #141e70;
+}
+
+/*estilos para la tabla*/
+#texto-tabla {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+table {
+    background-color: #fafafa;
+    margin-left: 200px;
+}
+
+
+#boton-tabla {
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 650px;
+    margin-bottom: 50px;
+}
+
+#boton-tabla:hover {
+    color: #141e70;
+}
+
+/*estilo para la seccion de contacto*/
+#contacto {
+    padding-top: 80px;
+    padding-left: 130px;
+    padding-right: 130px;
+    text-align: center;
+    color: #333;
+}
+
+#contacto h4 {
+    padding-top: 30px;
+    color: #141e70;
+    font-size: 20px;
+    background: #fafafa;
+}
+
+#contacto p {
+    font-size: 15px;
+    padding-top: 20px;
+    background: #fafafa;
+}
+
+#contacto form {
+    padding-top: 20px;
+	max-width: 100%;
+	margin: 0 auto;
+    background: #fafafa;
+}
+
+.datos-form {
+	display:inline;
+}
+
+.datos-form div {
+	padding: 10px;
+	flex: 1;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+	background: lightgrey;
+    border: lightgrey;
+	border-radius: 10px;
+	padding: 10px 50px;
+	outline: 0;
+	width: 50%;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+	color: #3333;
+}
+
+.boton-enviar {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 30px;
+    border: 3px solid black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.boton-enviar:hover {
+    color: #141e70;
+}
+
+/*estilos para el aside de anuncios*/
+#anuncio h5 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#anuncio p {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#anuncio img {
+    display: flex;
+    margin-left: 620px;
+    height: 120px;
+}
+
+#anuncio h6 {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+/*estilos para el footer*/
+#footer1 img {
+    padding-top: 100px;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+#footer1 p {
+    text-align: center;
+    padding-bottom: 10px;
+    color: #FFF;
+}
+
+#footer2 {
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+}
+
+
+
